@@ -1,10 +1,10 @@
 C++ = c++
 C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
-INFILES = 	main.cpp
+INFILES = 	main.cpp PhoneBook.cpp Contact.cpp
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = phonebook
+NAME = My_Awesome_PhoneBook
 
 all: $(NAME)
 

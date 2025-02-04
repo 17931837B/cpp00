@@ -23,18 +23,6 @@ void	megaphone(char *sentence)
 	}
 }
 
-void print_argument(char *argument)
-{
-	while (*argument != '\0')
-	{
-		if (std::isalpha(*argument))
-			std::cout << (char)std::toupper(*argument);
-		else
-			std::cout << *argument;
-		argument++;
-	}
-}
-
 int main(int argc, char **argv)
 {
 	int	i;
