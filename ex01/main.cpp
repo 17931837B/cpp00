@@ -79,6 +79,7 @@ int main()
 		} 
 		else if (command == "SEARCH")
 		{
+			pb.SearchContacts2();
 			std::cout << "Enter index (1~8): ";
 			int	index;
 			std::cin >> index;

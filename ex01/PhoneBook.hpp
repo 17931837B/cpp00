@@ -18,6 +18,7 @@ class PhoneBook
 						const std::string &nick, const std::string &phone, 
 						const std::string &secret);
 		void	SearchContacts(int i);
+		void	SearchContacts2();
 };
 
 #endif
