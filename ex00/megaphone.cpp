@@ -10,26 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <iostream>
-
-int	ft_isalpha_small(int chara)
-{
-	if ((chara >= 'a' && chara <= 'z'))
-		return (1);
-	else
-		return (0);
-}
+#include <string>
 
 void	megaphone(char *sentence)
 {
 	int	j;
+	std::string	str;
 
 	j = 0;
 	while (sentence[j])
 	{
-		if (ft_isalpha_small(sentence[j]))
-			std::cout << (char)(sentence[j] + ('A' - 'a'));
-		else
-			std::cout << sentence[j];
+		str = toupper(sentence[j]);
+		std::cout << str;
 		j++;
 	}
 }

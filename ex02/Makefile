@@ -1,5 +1,5 @@
-C++ = c++
-C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
+CXX = c++
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
 INFILES = 	Account.cpp tests.cpp
 
 OBJFILES = $(INFILES:.cpp=.o)
